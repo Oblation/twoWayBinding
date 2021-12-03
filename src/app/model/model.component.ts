@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-model',
@@ -8,7 +7,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class ModelComponent implements OnInit {
 
-  contactPerson: string = '';
+  model = {
+    title: 'esa'
+  }
 
   constructor() { }
 
